@@ -42,7 +42,7 @@ A first-person open-world survival prototype developed in **Unreal Engine** with
 The project emphasizes **modularity, scalability, and loose coupling** to make adding new items, recipes, and effects straightforward:
 
 * **Hybrid C++ / Blueprint Core:**
-  * **Health Component** is handled in native **C++** to test out c++ side of the engine.
+  * **Health Component** is handled in native **C++** to test out C++ side of the engine.
   * Most of the game logic, interactions, and UI components are structured via **Unreal Blueprints**.
 * **Data-Driven Building & Crafting:**
   * Powered by **Data Assets** (`BuildingData`) and Data Tables (`item_Data`) to seamlessly register new crafting recipes without modifying UI logic.
